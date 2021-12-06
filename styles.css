@@ -49,3 +49,12 @@ button:hover {
   background-color: #044346;
   border-color: #044346;
 }
+
+.form-control-inline {
+  display: flex;
+}
+
+.form-control-inline input {
+  width: auto;
+  margin-right: 0.5rem;
+}
