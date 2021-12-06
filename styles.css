@@ -31,6 +31,7 @@ input:focus {
   background-color: #e2fcef;
   color: #023436;
   border-color: #023436;
+  outline: none;
 }
 
 button {
