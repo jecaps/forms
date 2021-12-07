@@ -16,7 +16,8 @@ label {
   display: block;
 }
 
-input {
+input,
+textarea {
   width: 100%;
   display: block;
   margin-bottom: 1rem;
@@ -27,7 +28,8 @@ input {
   color: #272727;
 }
 
-input:focus {
+input:focus,
+textarea:focus {
   background-color: #e2fcef;
   color: #023436;
   border-color: #023436;
