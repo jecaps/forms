@@ -40,6 +40,10 @@ select {
   color: #272727;
 }
 
+textarea {
+  resize: none;
+}
+
 input:focus,
 textarea:focus {
   background-color: #e2fcef;
