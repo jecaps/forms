@@ -11,8 +11,91 @@ h1 {
 form {
   width: 40rem;
   margin: auto;
-  background-color: #fcf5f1;
+  background-color: #fff5ef;
   padding: 1rem;
   box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.2);
   border-radius: 0.375rem;
+}
+
+section {
+  margin: 1rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  color: #3c1518;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+select,
+textarea {
+  font: inherit;
+  padding: 0.5rem;
+  border: 0.0625rem solid #3c1518;
+  width: 100%;
+  display: block;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #faefef;
+  border: 0.0625rem solid #640a10;
+}
+
+#form-actions {
+  text-align: right;
+}
+
+button {
+  font: inherit;
+  border: 1px solid #640a10;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+}
+
+.btn-filled {
+  background-color: #3c1518;
+  color: #fef9ff;
+}
+
+.btn-filled:hover {
+  background-color: #640a10;
+}
+
+.btn-empty {
+  background-color: transparent;
+  color: #3c1518;
+}
+
+.btn-empty:hover {
+  background-color: #9e2b25;
+  border-color: #9e2b25;
+  color: #fff;
+}
+
+.inline-control {
+  display: flex;
+}
+
+.inline-control label {
+  margin: 0 0 0 0.5rem;
+}
+
+.inline-control input {
+  width: auto;
 }
